@@ -1,38 +1,261 @@
-.App {
-  text-align: center;
+/*Nav*/
+.nav{
+    background-color:rgb(71, 69, 67);
+     overflow:auto;
+}
+.nav a{
+    float:left;
+    padding:12px;
+    color:white;
+    text-decoration:none;
+    font-size:17px;
+    
+   
+    }
+.nav a:hover{
+background-color:grey;
+}
+.nav a.nav_link{
+   width:120px;
+   text-align: right;
+   font-family: 'Klee One', cursive;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (max-width:500px)
+{
+    .nav a{
+        float:left;
+        display: block;
+        width:100;
+           }
+}
+/*Nav close*/
+
+
+/*Home*/
+.homes{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+   
+    text-align: top;
+
+}
+.image{
+    height:"300px";
+     width:300px;
+    
+     background-color: white;
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.name{
+    font-family: 'Architects Daughter', cursive;
+    color:greenyellow;
+}
+.college{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+
+    font-size:20px;
+}
+.para{
+   
+    font-family: 'Architects Daughter', cursive;
+    font-size:15px;
+}
+/*Home close*/
+
+
+/*About*/
+
+.about{
+   text-align:center;
+    color:rgb(22, 21, 21);
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-style: normal;
+    text-underline-position: above;
+}
+.aboutme{
+    
+    text-align:center;
+    height:150px;
+    width:420px;
+    padding:120px;
+    padding-block:80px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    background-color: khaki;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:20px;
+}
+.tab{
+    
+    height:100px;
+    width:1150px;
+    padding:80px;
+    padding-block:10px;
+    padding-left: 10px;
+    padding-bottom: 300px;
+    background-color: rgba(240, 230, 140, 0.637);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:20px;
+   
+}
+
+.th{
+    text-align:center;
+    text-decoration: underline;
+    width:500px;
+    vertical-align: middle;
+    font-family: 'Merienda', cursive;
+}
+.td{
+    text-align:center;
+    font-family: 'Encode Sans', sans-serif;
+}
+.td1{
+    text-align:right;
+    font-family: 'Encode Sans', sans-serif;
+
+}
+.td2{
+    font-family: 'Encode Sans', sans-serif;
+    font-size:18px;
+}
+
+
+.image1{
+    height:150px;
+    width:150px;
+ 
+}
+/*About close*/
+
+
+/*projects*/
+.proj{
+    background-color: rgb(250, 214, 114);
+   align-items: center;
+   justify-content: center;
+    padding:150px;
+    padding-top:20px;
+    padding-bottom:180px;
+    
+}
+.font{
+    font-family: 'Klee One', cursive;
+    text-align:center;
+    background-color: rgb(139, 139, 70);
+}
+
+.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float:justify;
+    width: 200px;
+    float:left;
+    background-color: rgba(96, 170, 96, 0.733);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .gallery:hover {
+    border: 4px solid rgba(119, 119, 119, 0.74);
   }
-  to {
-    transform: rotate(360deg);
+  .gallery img {
+    width: 200px;
+    height: 100px;
   }
+  .desc {
+    padding: 5px;
+    text-align: center;
+  }
+ 
+.projpara2{
+    font-family: 'Architects Daughter', cursive; 
 }
+/* projects close*/
+
+
+/*contacts*/
+.con{
+    background-color:rgb(190, 188, 188);
+    text-align:center;
+    padding:20px;
+    font-family: 'Architects Daughter', cursive; 
+}
+.social-list{
+    background-color:rgb(190, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-list__item{
+    
+  color:rgb(247, 82, 17);
+ text-decoration:none;
+    padding:20px;
+    font-size: 40px;
+}
+.social-list a:hover{
+    background-color:grey;
+       opacity:0.9;
+}
+/*contacts close*/
+
+
+/* footer*/
+.footer{
+    text-align: center;
+ 
+    
+}
+.navi{
+    background-color:rgb(71, 69, 67);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     overflow:auto;
+}
+.navi a{
+    float:left;
+    padding:12px;
+    color:white;
+    text-decoration:none;
+    font-size:17px;
+    
+    
+   
+    }
+.navi a:hover{
+background-color:grey;
+}
+.navi a.nav_links{
+   width:120px;
+   text-align: right;
+   font-family: 'Klee One', cursive;
+
+  
+}
+
+@media screen and (max-width:500px)
+{
+    .navi a{
+        float:left;
+        display: block;
+        width:100;
+
+    }
+}
+.logo{
+    background-color:rgb(71, 69, 67);
+    color:white;
+    padding:20px;
+}
+/*footer close*/
+
+
+
+
+
+
+
+
+
